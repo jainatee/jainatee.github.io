@@ -1,0 +1,50 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: rgb(243, 243, 243);
+	padding-bottom: 10px;
+	font-family: helvetica;
+	font-size: 14px;
+}
+
+h1 {
+	text-align: center;
+	color: #ffffff;
+	background-color: rgb(9, 202, 159);
+	padding: 20px 0;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.nav {
+	text-align: center;
+	padding: 5px 0;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	margin: 0 5px;
+}
+
+.destination {
+	text-align: center;
+	background-color: rgb(194, 222, 249);
+	padding: 5px 20px;
+	margin-bottom: 20px;
+}
+
+.reykjavik {
+	background-color: rgb(191, 242, 228);
+}
+
+.descriptions {
+	text-align: left;
+}
+
+
+
+
+
