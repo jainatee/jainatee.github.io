@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-color: #444444;
+	line-height: 1.5;
+}
+
+.container {
+	width: 720px;
+	padding-top: 54px;
+	padding-left: 54px;
+	border-left: 6px solid #dddddd;
+}
+
+header {
+	font-weight: 300;
+	margin-bottom: 60px;
+}
+
+h1 {
+	color: #dd0000;
+	font-size: 48px;
+	line-height: 1;
+	font-weight: 300;
+	margin: 10px 0;
+}
+
+h2 {
+	font-size: 38px;
+	color: #cccccc;
+	font-weight: 300;
+	margin: 0;
+}
+
+.title {
+	color: black;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: 300;
+	margin: 10px 0;
+}
+
+nav a {
+	color: #dddddd;
+	hover: black;
+	font-size: 22px;
+	font-weight: 300;
+	margin-right: 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+
+}
