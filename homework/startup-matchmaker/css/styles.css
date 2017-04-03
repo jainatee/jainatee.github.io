@@ -1,0 +1,163 @@
+body {
+	font-family: Source Sans Pro, sans-serif;
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+header {
+	background-color: black;
+	border-bottom: #fffc56 solid 4px;
+	padding: 10px 30px;
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	display: inline-block;
+	font-family: 'Merriweather', serif;
+	color: #fffc56;
+	font-size: 26px;
+	margin: 0;
+	float: left;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	font-family: Source Sans Pro, sans-serif;
+}
+
+nav a:hover {
+	color: #fffc56;
+}
+
+
+.motto {
+	background-color: #c6c6c6;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-size: 22px;
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#taste {
+	color: rgb(153, 153, 153);
+	text-decoration: line-through;
+
+}
+
+#underline {
+	border-bottom: 3px solid #fffc56;
+}
+
+section {
+	background-image: url("../img/coworking.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 30px;
+	overflow: hidden;
+}
+
+.meet-your-match {
+	width: 300px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 30px;
+	float: right;
+}
+
+h3 {
+	margin: 0;
+	font-family: Oswald;
+	font-size: 24px;
+}
+
+p {
+	margin: 0;
+}
+
+#yellow-button {
+	background-color: #fffc56;
+  	border-radius: 5px;
+  	font-family: 'Oswald';
+  	font-weight: 700;
+  	width: 300px;
+  	font-size: 16px;
+  	margin: 10px 0;
+  	padding: 5px 0;
+  	border: 0px;
+  	box-shadow: 0px 1px 3px #888888;
+}
+
+button {
+	background-color: #c6c6c6;
+  	border-radius: 5px;
+  	font-family: 'Oswald';
+  	font-weight: 700;
+  	width: 240px;
+  	font-size: 16px;
+  	margin: 10px 0;
+  	padding: 8px 0;
+  	border: 0px;
+  	box-shadow: 0px 1px 3px #888888;
+}
+
+button:hover {
+	background-color: #fffc56;
+}
+
+#body {
+	background-color: #eeeeee;
+	width: 960px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.create-profile, .find-developer, .find-designer {
+	margin: 30px 25px;
+	width: 261px;
+	padding: 20px 0;
+}
+
+.create-profile, .find-developer {
+	border-right: solid 1px #c8c8c8;
+	padding-right: 10px;
+}
+
+h4 {
+	font-family: Merriweather;
+	font-size: 16px;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+.create-profile, .find-developer, .find-designer {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+footer {
+	background-color: black;
+	padding: 20px 30px
+}
+
+footer p {
+	color: white;
+}
