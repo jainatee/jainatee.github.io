@@ -1,0 +1,15 @@
+
+.pink-header {
+	width: 980px;
+	height: 400px;
+	background-color: pink;
+}
+
+p {
+	font-size: 32px;
+	color: white;
+	font-family: helvetica;
+	text-align: center;
+	margin: 0;
+}
+
