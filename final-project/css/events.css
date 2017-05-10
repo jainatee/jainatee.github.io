@@ -1,9 +1,10 @@
 body {
 	width: 100%;
 	margin: 0 auto;
+	background-color: #385991;
 	font-family: 'Noto Serif', serif;
 	font-size: 13px;
-	padding-top: 88px;
+	padding: 0;
 }
 
 nav {
@@ -22,7 +23,7 @@ nav {
 
 .nav-image img {
 	padding: 10px;
-	transition: width 2s;
+	transition: width 4s;
 }
 
 .nav-image-offset img {
@@ -92,37 +93,35 @@ nav {
     transition-duration: 0.4s;
 }
 
+main, section, footer {
+	box-sizing: border-box;
+
+}
+
 main {
-	height: 400px;
+	height: 200px;
 	margin: 0;
 	width: 100%;
-	box-sizing: border-box;
-	background-image: url("../img/mainbg.jpg");
+	background-image: url("../img/event-header.jpg");
 	background-position: center center;
 }
 
-main p {
-	margin: 0;
-	padding: 120px 100px;
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 56px;
-	color: white;
-	text-align: center;
-}
+
 
 section {
 	width: 100%;
 	background-color: #eff2f4;
 	padding: 40px 80px;
-	box-sizing: border-box;
 }
 
-.container {
-	display: flex;
-	justify-content: space-between;
-
+section p {
+	margin: 0;
+	color: black;
+	font-family: 'Noto Serif', serif;
+	padding-bottom: 2px;
 }
 
+/*Main Section Titles*/
 section h1, footer h1 {
 	margin: 0;
 	padding-bottom: 15px;
@@ -131,119 +130,121 @@ section h1, footer h1 {
 	font-size: 27px;
 }
 
-
-
-.newsblock {
-	width: 30%;
-	border-radius: 5px;
-	height: 50%px;
-	background-color: #8d348f;
-	box-sizing: border-box;
-}
-
-.newsblock img {
-	width: 100%;
-	display: block;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
-}
-
-.news-container {
-	padding: 10px 16px;
-
-}
-
-
-.card-1 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.card-1:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
+/*Main Headlines*/
 section h2 {
-	margin: 5px 0 10px 0;
-	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
 	color: white;
-	letter-spacing: .4px;
-	padding-bottom: 10px;
-	border-bottom: 1px dotted rgba(255,255,255,.2);
+	letter-spacing: .5px;
+	margin: 10px;
+	text-align: center;
 }
 
-h3 a {
+h2 a {
+	color: white;
+	text-decoration: none;
+}
+
+/*Boroughs*/
+h3  {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 13px;
 	color: white;
 	letter-spacing: .5px;
-	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
 	color: #3bbfbb;	
-	text-decoration: none;
+	margin: 0;
 }
 
-h3 a:hover {
-	color: white;
-	cursor: pointer;
-	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
-
-.spotlight {
-	margin: 40px 0;
+#map {
 	width: 100%;
+	height: 300px;
+	margin: 20px 0;
+	background-color: pink;
 }
 
-.spotlight-container {
+#filter-links {
+	margin: 5px 0 10px 0;
 	width: 100%;
 	display: flex;
-	background-color: #c94941;
-	border-radius: 4px;
-	padding: 0;
+
 }
 
-#spotlight-img {
+#filters {
 	margin: 0;
 	padding: 0;
-	width: 40%;
-/*	overflow: hidden;*/
-	background-image: url("../img/amanda.jpg");
-	background-position: top center;
 }
 
+#filters a {
+	font-family: 'Fjalla One', sans-serif;
+	color: #8d348f;
+	text-decoration: none;
+	margin-right: 10px;
+	font-size: 14px;
+	padding-bottom: 3px;
 
-#spotlight-bio {
-	width: 60%;
-	padding: 10px 20px 30px 20px;
+}
+
+#filters a:hover {
+	border-bottom: solid 2px #8d348f;
+}
+
+#filters li {
+	display: inline;
+}
+
+.container1 {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+	justify-content: space-around;
+	align-items: baseline;
 	box-sizing: border-box;
-
+	overflow: hidden;
 }
 
-#spotlight-bio a {
-	padding-left: 5px;
+.event-block {
+	width: 30%;
+	margin: 0 3% 3% 0;
+	position: relative;
+	overflow: hidden;
+	float: left;
 }
 
-#spotlight-bio h2 {
-	margin: 5px 0 10px 0;
-	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
-	color: white;
-	letter-spacing: .4px;
-	padding-bottom: 10px;
-	border-bottom: 1px dotted rgba(255,255,255,.2);
+.event-block img {
+	width: 100%;
+  -moz-transition: all 0.4s;
+  -webkit-transition4 all 0.4s;
+  transition: all 0.3s;
 }
 
-.fa {
-	color: white;
+.event-block img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.fa:hover {
-	color: #e29f45;
-	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+.queens {
+	background-color: #30bfbb;
 }
 
+.manhattan {
+	background-color: #c94941;
+}
+
+.brooklyn {
+	background-color: #e29f45;
+}
+.event-description {
+	background-color: #eff2f4;
+}
+
+.price {
+	color: #385993;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 12px;
+}
 
 footer {
 	width: 100%;
@@ -252,14 +253,13 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #385991;
 }
 
 #about-footer {
 	width: 60%;
 }
 
-footer p, section p, .spotlight p {
+footer p {
 	margin: 0;
 	color: white;
 	font-size: 13px;
@@ -283,7 +283,17 @@ footer p, section p, .spotlight p {
 	color: #e29f45;
 }
 
-/* MEDIA QUERIES */
+
+
+/*media queries*/
+
+/*@media (max-width: 900px) {
+	.container1, .container2, .container3, .container4, .container5 {
+		justify-content: space-between;
+		padding: 0;
+	}
+}*/
+
 @media (max-width: 768px) {
 	section {
 		padding: 5px 0;
@@ -325,58 +335,20 @@ footer p, section p, .spotlight p {
 	#ctaButton {
 		margin: 0;
 	}
+}
 
-	.spotlight-container {
+@media (max-width: 480px) {
+	.container1 {
 		display: block;
-		width: 100%;
 	}
 
-	#spotlight-bio {
+	.event-block {
 		width: 100%;
-	}
-
-	#spotlight-img {
-		width: 100%;
-		height: 300px;
+		margin: 20px 0;
 	}
 }
 
-@media (max-width: 900px) {
-	main {
-		height: 250px;
-	}
-
-	main p {
-		font-size: 42px;
-		margin: 0 auto;
-		padding: 80px 0;
-	}
-
-	.container {
-		flex-direction: column;
-		align-items: center;
-		flex-wrap: wrap;
-	}
-
-	.newsblock {
-		margin-bottom: 20px;
-		width: 100%;
-	}
-
-	section {
-		padding: 10px;
-	}
-}
-
-
-@media (max-width: 500px) {
-	main p {
-		font-size: 36px;
-		padding: 60px 0px;
-	}
-
-}
-
+/*media query for footer*/
 @media (max-width: 700px) {
 	footer {
 		display: block;
@@ -409,6 +381,5 @@ footer p, section p, .spotlight p {
 		padding-right: 20px;
 	}
 }
-
 
 

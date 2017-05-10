@@ -60,5 +60,44 @@ function valueCelsius () {
 	}
 }
 
+var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.739, lng: -73.989},
+          zoom: 6
+        });
+
+
+var locations = [
+	{
+		 lat: 40.7150265,
+		 lng: -73.915169,
+		 title: 'Creative Tech Week: Arts Hub'
+		},
+		{
+		  lat: 40.7232814,
+		  lng: -74.0021572,
+		  title: 'Entrepreneurship Mixer'
+		},
+		{
+		  lat: 40.740231,
+		  lng: -74.007294,
+		  title: '#WIMinTechNY',
+		},
+		{
+		  lat: 40.6766332,
+		  lng: -73.9885689,
+		  title: 'Women In Tech Lecture Series',
+		}
+	    ];
+
+locations.forEach(function (location) {
+	var marker = new google.maps.Marker({
+	    position: {
+	      lat: location.lat,
+	      lng: location.lng,
+	    },
+	    title: location.title,
+	    map: map
+ 	  });
+})
 
 
