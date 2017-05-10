@@ -198,15 +198,14 @@ h3  {
 	width: 100%;
 	margin: 0 auto;
 	padding: 10px 0;
-	justify-content: space-around;
-	align-items: baseline;
 	box-sizing: border-box;
 	overflow: hidden;
+	display: inline-block;
 }
 
 .event-block {
 	width: 30%;
-	margin: 0 3% 3% 0;
+	margin: 0 3% 6% 0;
 	position: relative;
 	overflow: hidden;
 	float: left;
@@ -294,7 +293,7 @@ footer p {
 	}
 }*/
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
 	section {
 		padding: 5px 0;
 	}
