@@ -197,15 +197,13 @@ h3  {
 .container1 {
 	width: 100%;
 	margin: 0 auto;
-	padding: 10px 0;
 	box-sizing: border-box;
-	overflow: hidden;
-	display: inline-block;
+	overflow: auto;
 }
 
 .event-block {
 	width: 30%;
-	margin: 0 3% 6% 0;
+	margin: 5px 10px;
 	position: relative;
 	overflow: hidden;
 	float: left;
